@@ -1,0 +1,601 @@
+body {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-color: #3d93b4;
+}
+
+.sky {
+  position: absolute;
+  width: 98vw;
+  height: 400px;
+  background-color: #95daf5;
+  border-bottom: 80px solid #55a5c5;
+}
+
+.bottom {
+  position: absolute;
+  top: 500px;
+  width: 98vw;
+  height: 40vh;
+  background-color: #13aa13;
+  border-top: 50px solid #248d24;
+}
+
+.flower {
+  -webkit-transform: rotateY(159deg);
+          transform: rotateY(159deg);
+  position: relative;
+  margin: 0 auto;
+  margin-left: 400px;
+  width: 500px;
+  height: 100vh;
+}
+
+.flower .stock {
+  position: relative;
+  margin: auto;
+}
+
+.flower .stock .stem {
+  position: absolute;
+  border-left: 5px solid #14cf14;
+  border-right: 4px solid #026102;
+  left: 700px;
+  top: 240px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  height: 500px;
+  width: 10px;
+  background-color: green;
+}
+
+.flower .stock .leaf {
+  position: absolute;
+  border-top: 70px solid transparent;
+  border-bottom: 54px solid #125d21;
+  border-left: 25px solid transparent;
+  border-right: 120px solid #177212;
+  border-radius: 25px;
+  left: 693px;
+  top: 549px;
+  -webkit-transform: rotate(0deg);
+  transform: skew(-20deg) rotateY(-40deg);
+}
+
+.flower .stock .leaf2 {
+  position: absolute;
+  border-top: 70px solid transparent;
+  border-bottom: 54px solid #125d21;
+  border-left: 25px solid transparent;
+  border-right: 120px solid #177212;
+  border-radius: 25px;
+  left: 606px;
+  top: 525px;
+  -webkit-transform: rotate(0deg);
+  transform: skew(20deg) rotateY(113deg);
+}
+
+.flower .petals-inner {
+  position: relative;
+}
+
+.flower .petals-inner .petal {
+  position: absolute;
+  border-top: 64px solid transparent;
+  border-bottom: 20px solid #d8d8a8;
+  border-left: 20px solid transparent;
+  border-right: 20px solid #c01d39;
+  border-radius: 50px;
+  left: 625px;
+  top: 300px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+}
+
+.flower .petals-inner .petal1 {
+  position: absolute;
+  border-top: 64px solid transparent;
+  border-bottom: 20px solid #d8d8a8;
+  border-left: 20px solid transparent;
+  border-right: 20px solid #c01d39;
+  border-radius: 50px;
+  left: 658px;
+  top: 314px;
+  -webkit-transform: rotate(50deg);
+          transform: rotate(50deg);
+}
+
+.flower .petals-inner .petal2 {
+  position: absolute;
+  border-top: 64px solid transparent;
+  border-bottom: 20px solid #e7e7c0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid #a66b75;
+  border-radius: 50px;
+  left: 682px;
+  top: 334px;
+  -webkit-transform: rotate(80deg);
+  transform: rotate(80deg);
+}
+
+.flower .petals-inner .petal3 {
+  position: absolute;
+  border-top: 64px solid transparent;
+  border-bottom: 20px solid #d8d8a8;
+  border-left: 20px solid transparent;
+  border-right: 20px solid #c01d39;
+  border-radius: 50px;
+  left: 668px;
+  top: 360px;
+  -webkit-transform: rotate(80deg);
+  transform: rotate(127deg);
+}
+
+.flower .petals-inner .petal4 {
+  position: absolute;
+  border-top: 64px solid transparent;
+  border-bottom: 20px solid #d8d8a8;
+  border-left: 20px solid transparent;
+  border-right: 20px solid #a66b75;
+  border-radius: 50px;
+  left: 621px;
+  top: 377px;
+  -webkit-transform: rotate(80deg);
+  transform: rotate(197deg);
+}
+
+.flower .petals-inner .petal5 {
+  position: absolute;
+  border-top: 64px solid transparent;
+  border-bottom: 20px solid #d8d8a8;
+  border-left: 20px solid transparent;
+  border-right: 20px solid #c01d39;
+  border-radius: 50px;
+  left: 591px;
+  top: 363px;
+  -webkit-transform: rotate(80deg);
+  transform: rotate(238deg);
+}
+
+.flower .petals-inner .petal6 {
+  position: absolute;
+  border-top: 64px solid transparent;
+  border-bottom: 20px solid #d8d8a8;
+  border-left: 20px solid transparent;
+  border-right: 20px solid #a66b75;
+  border-radius: 50px;
+  left: 591px;
+  top: 309px;
+  -webkit-transform: rotate(80deg);
+  transform: rotate(313deg);
+}
+
+.flower .petals-inner .petal7 {
+  position: absolute;
+  border-top: 64px solid transparent;
+  border-bottom: 20px solid #d8d8a8;
+  border-left: 20px solid transparent;
+  border-right: 20px solid #c01d39;
+  border-radius: 50px;
+  left: 607px;
+  top: 327px;
+  -webkit-transform: rotate(80deg);
+  transform: rotate(291deg);
+}
+
+.flower .petals-second {
+  position: relative;
+}
+
+.flower .petals-second .petal {
+  position: absolute;
+  border-top: 90px solid transparent;
+  border-bottom: 60px solid #c24166;
+  border-left: 40px solid transparent;
+  border-right: 30px solid #e05980;
+  border-radius: 25px;
+  left: 640px;
+  top: 238px;
+  -webkit-transform: rotate(0deg);
+  transform: rotate(23deg);
+}
+
+.flower .petals-second .petal1 {
+  position: absolute;
+  border-top: 90px solid transparent;
+  border-bottom: 60px solid #c24166;
+  border-left: 40px solid transparent;
+  border-right: 30px solid #e05980;
+  border-radius: 25px;
+  left: 698px;
+  top: 276px;
+  -webkit-transform: rotate(0deg);
+  transform: rotate(75deg);
+}
+
+.flower .petals-second .petal2 {
+  position: absolute;
+  border-top: 90px solid transparent;
+  border-bottom: 60px solid #c24166;
+  border-left: 40px solid transparent;
+  border-right: 30px solid #e05980;
+  border-radius: 25px;
+  left: 698px;
+  top: 315px;
+  -webkit-transform: rotate(0deg);
+  transform: rotate(109deg);
+}
+
+.flower .petals-second .petal3 {
+  position: absolute;
+  border-top: 90px solid transparent;
+  border-bottom: 60px solid #c24166;
+  border-left: 40px solid transparent;
+  border-right: 30px solid #e05980;
+  border-radius: 25px;
+  left: 650px;
+  top: 358px;
+  -webkit-transform: rotate(0deg);
+  transform: rotate(156deg);
+}
+
+.flower .petals-second .petal4 {
+  position: absolute;
+  border-top: 90px solid transparent;
+  border-bottom: 60px solid #c24166;
+  border-left: 40px solid transparent;
+  border-right: 30px solid #e05980;
+  border-radius: 25px;
+  left: 595px;
+  top: 358px;
+  -webkit-transform: rotate(0deg);
+  transform: rotate(210deg);
+}
+
+.flower .petals-second .petal5 {
+  position: absolute;
+  border-top: 90px solid transparent;
+  border-bottom: 60px solid #c24166;
+  border-left: 40px solid transparent;
+  border-right: 30px solid #e05980;
+  border-radius: 25px;
+  left: 595px;
+  top: 332px;
+  -webkit-transform: rotate(0deg);
+  transform: rotate(260deg);
+}
+
+.flower .petals-second .petal6 {
+  position: absolute;
+  border-top: 90px solid transparent;
+  border-bottom: 60px solid #c24166;
+  border-left: 40px solid transparent;
+  border-right: 30px solid #e05980;
+  border-radius: 25px;
+  left: 564px;
+  top: 292px;
+  -webkit-transform: rotate(0deg);
+  transform: rotate(285deg);
+}
+
+.flower .petals-second .petal7 {
+  position: absolute;
+  border-top: 90px solid transparent;
+  border-bottom: 60px solid #c24166;
+  border-left: 40px solid transparent;
+  border-right: 30px solid #e05980;
+  border-radius: 25px;
+  left: 585px;
+  top: 269px;
+  -webkit-transform: rotate(0deg);
+  transform: rotate(332deg);
+}
+
+.flower .petals-third {
+  position: relative;
+}
+
+.flower .petals-third .petal {
+  position: absolute;
+  border-top: 119px solid transparent;
+  border-bottom: 64px solid #992d4c;
+  border-left: 72px solid transparent;
+  border-right: 54px solid #cb2c5a;
+  border-radius: 53px;
+  left: 560px;
+  top: 206px;
+  -webkit-transform: rotate(0deg);
+  transform: rotate(344deg);
+}
+
+.flower .petals-third .petal1 {
+  position: absolute;
+  border-top: 119px solid transparent;
+  border-bottom: 64px solid #992d4c;
+  border-left: 72px solid transparent;
+  border-right: 54px solid #cb2c5a;
+  border-radius: 53px;
+  left: 643px;
+  top: 199px;
+  -webkit-transform: rotate(0deg);
+  transform: rotate(387deg);
+}
+
+.flower .petals-third .petal2 {
+  position: absolute;
+  border-top: 119px solid transparent;
+  border-bottom: 64px solid #992d4c;
+  border-left: 72px solid transparent;
+  border-right: 54px solid #cb2c5a;
+  border-radius: 53px;
+  left: 701px;
+  top: 233px;
+  -webkit-transform: rotate(0deg);
+  transform: rotate(422deg);
+}
+
+.flower .petals-third .petal3 {
+  position: absolute;
+  border-top: 119px solid transparent;
+  border-bottom: 64px solid #992d4c;
+  border-left: 72px solid transparent;
+  border-right: 54px solid #cb2c5a;
+  border-radius: 53px;
+  left: 710px;
+  top: 284px;
+  -webkit-transform: rotate(0deg);
+  transform: rotate(462deg);
+}
+
+.flower .petals-third .petal4 {
+  position: absolute;
+  border-top: 119px solid transparent;
+  border-bottom: 64px solid #992d4c;
+  border-left: 72px solid transparent;
+  border-right: 54px solid #cb2c5a;
+  border-radius: 53px;
+  left: 676px;
+  top: 341px;
+  -webkit-transform: rotate(0deg);
+  transform: rotate(512deg);
+}
+
+.flower .petals-third .petal5 {
+  position: absolute;
+  border-top: 119px solid transparent;
+  border-bottom: 64px solid #992d4c;
+  border-left: 72px solid transparent;
+  border-right: 54px solid #cb2c5a;
+  border-radius: 53px;
+  left: 660px;
+  top: 341px;
+  -webkit-transform: rotate(0deg);
+  transform: rotate(544deg);
+}
+
+.flower .petals-third .petal6 {
+  position: absolute;
+  border-top: 119px solid transparent;
+  border-bottom: 64px solid #992d4c;
+  border-left: 72px solid transparent;
+  border-right: 54px solid #cb2c5a;
+  border-radius: 53px;
+  left: 608px;
+  top: 341px;
+  -webkit-transform: rotate(0deg);
+  transform: rotate(544deg);
+}
+
+.flower .petals-third .petal7 {
+  position: absolute;
+  border-top: 119px solid transparent;
+  border-bottom: 64px solid #992d4c;
+  border-left: 72px solid transparent;
+  border-right: 54px solid #cb2c5a;
+  border-radius: 53px;
+  left: 594px;
+  top: 341px;
+  -webkit-transform: rotate(0deg);
+  transform: rotate(589deg);
+}
+
+.flower .petals-third .petal8 {
+  position: absolute;
+  border-top: 119px solid transparent;
+  border-bottom: 64px solid #992d4c;
+  border-left: 72px solid transparent;
+  border-right: 54px solid #cb2c5a;
+  border-radius: 53px;
+  left: 563px;
+  top: 309px;
+  -webkit-transform: rotate(0deg);
+  transform: rotate(610deg);
+}
+
+.flower .petals-third .petal9 {
+  position: absolute;
+  border-top: 119px solid transparent;
+  border-bottom: 64px solid #992d4c;
+  border-left: 72px solid transparent;
+  border-right: 54px solid #cb2c5a;
+  border-radius: 53px;
+  left: 538px;
+  top: 256px;
+  -webkit-transform: rotate(0deg);
+  transform: rotate(654deg);
+}
+
+.flower .petals-third .petal9 {
+  position: absolute;
+  border-top: 119px solid transparent;
+  border-bottom: 64px solid #992d4c;
+  border-left: 72px solid transparent;
+  border-right: 54px solid #cb2c5a;
+  border-radius: 53px;
+  left: 538px;
+  top: 256px;
+  -webkit-transform: rotate(0deg);
+  transform: rotate(654deg);
+}
+
+.flower .petals-third .petal10 {
+  position: absolute;
+  border-top: 119px solid transparent;
+  border-bottom: 64px solid #992d4c;
+  border-left: 72px solid transparent;
+  border-right: 54px solid #cb2c5a;
+  border-radius: 53px;
+  left: 538px;
+  top: 256px;
+  -webkit-transform: rotate(0deg);
+  transform: rotate(690deg);
+}
+
+.flower .petals-outer {
+  position: relative;
+}
+
+.flower .petals-outer .petal {
+  position: absolute;
+  border-top: 120px solid transparent;
+  border-bottom: 46px solid #c24166;
+  border-left: 37px solid transparent;
+  border-right: 85px solid #ac0a38;
+  border-radius: 25px;
+  left: 630px;
+  top: 174px;
+  -webkit-transform: rotate(0deg);
+  transform: rotate(-6deg);
+}
+
+.flower .petals-outer .petal1 {
+  position: absolute;
+  border-top: 120px solid transparent;
+  border-bottom: 46px solid #c24166;
+  border-left: 37px solid transparent;
+  border-right: 85px solid #ac0a38;
+  border-radius: 25px;
+  left: 710px;
+  top: 226px;
+  -webkit-transform: rotate(0deg);
+  transform: rotate(33deg);
+}
+
+.flower .petals-outer .petal2 {
+  position: absolute;
+  border-top: 120px solid transparent;
+  border-bottom: 46px solid #c24166;
+  border-left: 37px solid transparent;
+  border-right: 85px solid #ac0a38;
+  border-radius: 25px;
+  left: 725px;
+  top: 272px;
+  -webkit-transform: rotate(0deg);
+  transform: rotate(81deg);
+}
+
+.flower .petals-outer .petal3 {
+  position: absolute;
+  border-top: 120px solid transparent;
+  border-bottom: 46px solid #c24166;
+  border-left: 37px solid transparent;
+  border-right: 85px solid #ac0a38;
+  border-radius: 25px;
+  left: 701px;
+  top: 335px;
+  -webkit-transform: rotate(0deg);
+  transform: rotate(118deg);
+}
+
+.flower .petals-outer .petal4 {
+  position: absolute;
+  border-top: 120px solid transparent;
+  border-bottom: 46px solid #c24166;
+  border-left: 37px solid transparent;
+  border-right: 85px solid #ac0a38;
+  border-radius: 25px;
+  left: 653px;
+  top: 377px;
+  -webkit-transform: rotate(0deg);
+  transform: rotate(180deg);
+}
+
+.flower .petals-outer .petal5 {
+  position: absolute;
+  border-top: 120px solid transparent;
+  border-bottom: 46px solid #c24166;
+  border-left: 37px solid transparent;
+  border-right: 85px solid #ac0a38;
+  border-radius: 25px;
+  left: 602px;
+  top: 377px;
+  -webkit-transform: rotate(0deg);
+  transform: rotate(204deg);
+}
+
+.flower .petals-outer .petal6 {
+  position: absolute;
+  border-top: 120px solid transparent;
+  border-bottom: 46px solid #c24166;
+  border-left: 37px solid transparent;
+  border-right: 85px solid #ac0a38;
+  border-radius: 25px;
+  left: 587px;
+  top: 377px;
+  -webkit-transform: rotate(0deg);
+  transform: rotate(228deg);
+}
+
+.flower .petals-outer .petal7 {
+  position: absolute;
+  border-top: 120px solid transparent;
+  border-bottom: 46px solid #c24166;
+  border-left: 37px solid transparent;
+  border-right: 85px solid #ac0a38;
+  border-radius: 25px;
+  left: 572px;
+  top: 344px;
+  -webkit-transform: rotate(0deg);
+  transform: rotate(248deg);
+}
+
+.flower .petals-outer .petal8 {
+  position: absolute;
+  border-top: 120px solid transparent;
+  border-bottom: 46px solid #c24166;
+  border-left: 37px solid transparent;
+  border-right: 85px solid #ac0a38;
+  border-radius: 25px;
+  left: 531px;
+  top: 298px;
+  -webkit-transform: rotate(0deg);
+  transform: rotate(277deg);
+}
+
+.flower .petals-outer .petal9 {
+  position: absolute;
+  border-top: 120px solid transparent;
+  border-bottom: 46px solid #c24166;
+  border-left: 37px solid transparent;
+  border-right: 85px solid #ac0a38;
+  border-radius: 25px;
+  left: 531px;
+  top: 240px;
+  -webkit-transform: rotate(0deg);
+  transform: rotate(312deg);
+}
+
+.flower .petals-outer .petal10 {
+  position: absolute;
+  border-top: 120px solid transparent;
+  border-bottom: 46px solid #c24166;
+  border-left: 37px solid transparent;
+  border-right: 85px solid #ac0a38;
+  border-radius: 25px;
+  left: 552px;
+  top: 191px;
+  -webkit-transform: rotate(0deg);
+  transform: rotate(337deg);
+}
+/*# sourceMappingURL=style.css.map */
