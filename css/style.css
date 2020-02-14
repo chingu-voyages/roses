@@ -3,6 +3,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: #3d93b4;
+  width: 110vw;
 }
 
 .sky {
@@ -26,10 +27,10 @@ body {
   -webkit-transform: rotateY(159deg);
           transform: rotateY(159deg);
   position: relative;
-  margin: 0 auto;
   margin-left: 400px;
-  width: 500px;
+  width: 600px;
   height: 100vh;
+  left: 0;
 }
 
 .flower .stock {
